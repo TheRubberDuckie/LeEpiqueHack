@@ -247,16 +247,17 @@ a:focus,a:hover {
 }
 
 .btn-default {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     color: #fff;
     background-color: transparent
 }
 
 .btn-default:focus,.btn-default:hover {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     outline: 0;
     color: #fff;
-    background-color: #000000
+    font-weight: 500;
+    background-color: transparent
 }
 
 footer {
