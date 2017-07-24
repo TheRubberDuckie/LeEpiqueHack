@@ -5,7 +5,7 @@ body,html {
 }
 
 .navbar-custom,body {
-    background-color: #232323
+    background-color: #fff
 }
 
 .intro,body,html {
@@ -13,14 +13,14 @@ body,html {
 }
 
 body {
-    font-family: Verdana,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Quicksand', sans-serif
     color: #fff;
     webkit-tap-highlight-color: rgba(255,255,255,.2)
 }
 
 .btn,.navbar-custom,h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family: 'Quicksand', sans-serif
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -44,6 +44,7 @@ p {
 }
 
 a {
+    font-weight: bold;
     color: #42DCA3;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -51,7 +52,7 @@ a {
 }
 
 a:focus,a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: #1d9b6c
 }
 
@@ -98,7 +99,8 @@ a:focus,a:hover {
 }
 
 .navbar-custom .nav li a:hover {
-    color: #FFFFFF
+    color: #fff;
+    text-decoration: underline;
 }
 
 .navbar-custom .nav li.active {
@@ -126,7 +128,7 @@ a:focus,a:hover {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        background: #232323;
+        background: #000;
         border-bottom: 1px solid rgba(35,35,35,.3)
     }
 }
@@ -203,6 +205,7 @@ a:focus,a:hover {
 }
 
 .content-section {
+    color: #000;
     padding-top: 50px
 }
 
@@ -239,11 +242,13 @@ a:focus,a:hover {
 }
 
 .btn {
+    width: 150px;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     border-radius: 0
+    display: block;
 }
 
 .btn-default {
@@ -256,7 +261,8 @@ a:focus,a:hover {
     border: 2px solid #fff;
     outline: 0;
     color: #fff;
-    font-weight: 500;
+    text-decoration: underline;
+    font-weight: 400;
     background-color: transparent
 }
 
