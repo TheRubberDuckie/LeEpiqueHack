@@ -1,6 +1,7 @@
 body,html {
     height: 100%;
     width: 100%
+    overflow-x:hidden;
 }
 
 .navbar-custom,body {
@@ -136,7 +137,7 @@ a:focus,a:hover {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background-image: linear-gradient(rgba(35,35,35, 0.9), rgba(35,35,35, 0.9)),url('img/edgy.png') !important;
+    background-image: linear-gradient(rgba(35,35,35, 0.6), rgba(35,35,35, 0.6)),url('img/gate.jpg') !important;
     position:relative;
     width:100%;
     text-align:center
@@ -209,9 +210,9 @@ a:focus,a:hover {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background-image: linear-gradient(rgba(35,35,35, 0.8), rgba(35,35,35, 0.8)),url('img/edgy.png') !important;
+    background-image: linear-gradient(rgba(35,35,35, 0.5), rgba(35,35,35, 0.5)),url('img/gate.jpg') !important;
     position:relative;
-    width:100%;
+    width: 100%;
     text-align:center
     background-repeat: no-repeat;
     background-position: center;
