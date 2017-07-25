@@ -233,7 +233,7 @@ a:focus,a:hover {
     }
 
     .download-section {
-        padding: 100px 0
+        padding: 75px 0
     }
 
 /*    #map {
@@ -301,22 +301,27 @@ img::-moz-selection {
         padding-bottom: 50px
 }
 .answer {
-    font-size:12px;
+    font-size:15px;
 }
 .aboutboxes {
       margin: 0 20 20 20px;
       padding-bottom: 50px;
 }
 .title {
-    height: 150px;
+    font-weight: bold;
+    height: 120px;
     padding-bottom: 50px;
-    font-size: 25px;
+    font-size: 18px;
     text-align: right
 }
 .description {
-    padding-top: 10px;
-    height: 150px;
+    padding-top: 3px;
+    height: 120px;
     padding-bottom: 50px;
     font-size: 15px;
     text-align: left
+}
+.site-footer {
+  background: black;
+  color: white
 }
