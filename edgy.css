@@ -243,7 +243,8 @@ a:focus,a:hover {
 }
 
 .btn {
-    width: 150px;
+    font-size: 15px;
+    width: 125px;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
